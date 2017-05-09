@@ -1,0 +1,129 @@
+body {
+	font-family: '\5FAE\8F6F\96C5\9ED1';
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img {
+	display: block;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+.top{
+	width: 100%;
+	height: 96px;
+}
+.z_one{
+	width: 959px;
+	height: 96px;
+	margin: 0 auto;
+}
+.z_one_left{
+	width: 300px;
+	height: 96px;
+	float: left;
+}
+.z_one_right{
+	width: 659px;
+	height: 96px;
+	float: left;
+}
+.z_shang{
+	padding-top: 15px;
+	/*background: red;*/
+	height: 25px;
+}
+.z_xia{
+	height: 55px;
+}
+.z_xia>a{
+	float: left;
+	color: #743333;
+	margin-left:38px;
+	line-height: 55px;
+}
+.z_xia>a:hover{
+	color: blue;
+}
+/*.in{
+	width: 160px;
+	height: 23px;
+}*/
+
+.z_tu{
+	width: 161px;
+	float: right;
+	height: 23px;
+}
+.z_tu>input{
+	width: 131px;
+	float: left;
+	height: 20px;
+}
+.z_tu>img{
+	float: left;
+}
+.in{
+	width: 160px;
+	height: 20px;
+	float: right;
+}
+.in>span{
+	float: left;
+	line-height: 20px;
+}
+.banner{
+	width: 100%;
+	height: 631px;
+	overflow: hidden;
+	
+}
+.box{
+	width: 6096px;
+	position: relative;
+}
+.box>div{
+	width: 1524px;
+	float: left;
+	/*display: none;*/
+	margin: 0 auto;
+}
+.box>div>img {
+	margin-left: 40px;
+	float: left;
+}
+.q{
+	display: block;
+/*	background: red;*/
+}
+
+
+

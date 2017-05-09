@@ -1,0 +1,751 @@
+@charset "utf-8";
+/* CSS Document */
+/*html5*/
+
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+* {
+	margin:0;
+	padding:0;
+	font:12px Arial, Helvetica, sans-serif;
+}
+.f_l {
+	float:left;
+}
+.f_l .logo {
+	width:149px;
+	height:98px;
+	display:block;
+}
+.f_r {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+img {
+	border: none;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration:underline;
+}
+strong {
+	font-weight: bold;
+}
+li {
+	list-style:none none;
+}
+
+/*浏览器滚动条*/
+::-webkit-scrollbar{width:12px;height:12px}
+::-webkit-scrollbar-button:vertical{display:none}
+::-webkit-scrollbar-track:vertical{background-color:black}
+::-webkit-scrollbar-track-piece{background:#F0F0F0}
+::-webkit-scrollbar-thumb:vertical{background-color:#8E8E8E;border-radius:0px}
+::-webkit-scrollbar-thumb:vertical:hover{background-color:#2a9ad4}
+::-webkit-scrollbar-corner:vertical{background-color:#535353}
+::-webkit-scrollbar-resizer:vertical{background-color:#b77400}
+
+/*header*/
+html {
+	text-align:center;
+}
+body {
+	position:relative;
+}
+div.header {
+	display:inline-block;
+	width:960px;
+	height:92px;
+	margin:0 auto;
+}
+h1 {
+	background:url(../img/global_pic_logo.jpg) no-repeat;
+	width:149px;
+	height:98px;
+	position:relative;
+	left:0;
+	top:0;
+	z-index:9999;
+}
+.width800 {
+	display:inline-block;
+	width:800px;
+}
+.search {
+	margin:20px 0 0 10px;
+}
+.search .text {
+	padding-left: 5px;
+	height: 21px;
+	font: 12px/21px Arial, Helvetica, sans-serif;
+	color: #0088DB;
+	float: left;
+	background-color: #F0F0F0;
+	border-top-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #F0F0F0;
+	border-right-color: #F0F0F0;
+	border-bottom-color: #F0F0F0;
+	border-left-color: #F0F0F0;
+}
+.search .btn {
+	border:0;
+	background:url(../img/global_pic_js.jpg) no-repeat;
+	width:27px;
+	height:23px;
+	cursor:pointer;
+	margin-left:-3px;
+}
+.gs {
+	font:12px Arial, Helvetica, sans-serif;
+	color:#333;
+	margin-top:24px;
+}
+.gs strong {
+	color:#606060;
+	background:url(../img/global_pic_gs.jpg) no-repeat 7px 3px;
+	padding-left:20px;
+}
+.gs strong.decline {
+	color:#606060;
+	background:url(global_pic_gs.jpg) no-repeat 7px -13px;
+	padding-left:20px;
+}
+div.nav {
+	display:inline-block;
+	height:55px;
+}
+div.nav #menu {
+	margin-left:2px;
+}
+div.nav #menu li {
+	float:left;
+	position:relative;
+}
+/*
+div.nav #menu a.default {
+	display:inline-block;
+	float:left;
+	margin-left:51px;
+	font:18px/52px Arial, Helvetica, sans-serif;
+	color:#333;
+	height:52px;
+	text-decoration:none;
+}
+*/
+div.nav #menu a.default {
+	display:inline-block;
+	float:left;
+	margin-left:30px;
+	font:13px/52px Arial, Helvetica, sans-serif;
+	color:#333;
+	height:52px;
+	text-decoration:none;
+}
+div.nav #menu a.current {
+	display:inline-block;
+	float:left;
+	margin-left:30px;
+	font:13px/52px Arial, Helvetica, sans-serif;
+	color:#2A9AD4;
+	height:52px;
+	background:url(../img/global_pic_tcbg.png) no-repeat center bottom;
+	text-decoration:none;
+}
+.nav_list {
+	position:absolute;
+	top:95px;
+	left:0;
+	display:inline-block;
+	width:100%;
+	height:0px;
+	background-color:#95cae9;
+	/*border-top:1px solid #f2f1ef;*/
+	text-align:center;
+	z-index:60;
+	opacity:0.8;
+}
+div.nav #menu .lm1 {
+	display:none;
+	width:960px;
+	/*width:100%;*/
+	text-align:left;
+	margin:0 auto;
+	position:absolute;
+	top:51px;
+	left:-68px;
+	z-index:150;
+}
+div.nav #menu .lm2 {
+	display:none;
+	width:820px;
+	/*width:100%;*/
+	text-align:left;
+	margin:0 auto;
+	position:absolute;
+	top:51px;
+	left:-232px;
+	z-index:150;
+}
+div.nav #menu .lm3 {
+	display:none;
+	width:300px;
+	/*width:100%;*/
+	text-align:left;
+	margin:0 auto;
+	position:absolute;
+	top:51px;
+	left:-41px;
+	z-index:150;
+}
+div.nav #menu .lm4 {
+	display:none;
+	width:450px;
+	/*width:100%;*/
+	text-align:left;
+	margin:0 auto;
+	position:absolute;
+	top:51px;
+	left:-55px;
+	z-index:150;
+}
+div.nav #menu .lm5 {
+	display:none;
+	width:870px;
+	/*width:100%;*/
+	text-align:center;
+	margin:0 auto;
+	position:absolute;
+	top:51px;
+	left:-450px;
+	z-index:150;
+}
+div.nav #menu div a {
+	font:14px/56px Arial, Helvetica, sans-serif;
+	color:#FFF;
+	margin-right:18px;
+	/*z-index:15;*/
+}
+div.nav #menu div a:hover {
+	color:#EEE;
+}
+
+/*
+.js_slidedown{
+	position:relative;
+}
+*/
+
+/*footer*/
+div.footer {
+	background-color:#eaeaea;
+	padding-top:15px;
+	padding-bottom:10px;
+	text-align:center;
+	margin-top:30px;
+}
+div.footer div {
+	display:inline-block;
+	width:890px;
+	margin:0 auto;
+	background:url(../img/global_pic_logo2.jpg) no-repeat left center;
+	height:25px;
+	font:12px/25px Arial, Helvetica, sans-serif;
+	color:#696969;
+	padding-left:70px;
+	text-align:left;
+}
+div.footer div span {
+	display:inline-block;
+	float:left;
+	font:12px/25px Arial, Helvetica, sans-serif;
+	padding-top:3px;
+}
+div.footer div p {
+	font:12px/25px Arial, Helvetica, sans-serif;
+	color:#696969;
+	padding-top:3px;
+}
+div.footer div a {
+	font:12px/25px Arial, Helvetica, sans-serif;
+	color:#696969;
+}
+div.footer div a:hover {
+	text-decoration:underline;
+	color:#2a9ad4;
+}
+div.footer .button{
+	position: fixed;
+	right: 40px;
+	bottom: 100px;
+}
+div.footer .button a.btn1 {
+	display:block;
+	width:44px;
+	height:44px;
+	background:url(global_Principles_btn1.gif) no-repeat;
+}
+div.footer .button a.btn1:hover {
+	background:url(global_Principles_btn1a.gif) no-repeat;
+}
+div.footer .button a.btn_top {
+	display:none;
+	width:44px;
+	height:44px;
+	background:url(../img/global_Principles_btn2.gif) no-repeat;
+	margin-top:1px;
+}
+div.footer .button a.btn_top:hover {
+	background:url(global_Principles_btn2a.gif) no-repeat;
+}
+div.footer .btn_top {
+	display:inline-block;
+	width:54px;
+	height:54px;
+	background:url(global_Principles_btn2.gif) no-repeat 0 0;
+	position: fixed;
+	_position: absolute;
+	_top: expression(eval(document.documentElement.scrollTop + (document.documentElement.clientHeight - 350)));
+	right:20px;
+	bottom: 45px;
+	display: none;
+	text-indent:-9999px;
+}
+div.footer .btn_top:hover {
+	background:url(global_Principles_btn2a.gif) no-repeat 0 0;
+}
+
+/* Banner */
+#banner .item_box {
+}
+#banner .i_item{
+}
+#banner .nav_box {
+position: absolute;
+left: 0;
+top: 403px;
+width: 100%;
+text-align:center;
+}
+#banner .nav_box div{
+display:inline-block;
+}
+
+#banner .nav_box span{
+	display: block;
+	width: 35px;
+	height: 11px;
+	float:left;
+	margin:0 10px;
+	cursor:pointer;
+	background:url(global_pic_btnbg1.jpg) -4px -9px;
+}
+#banner .nav_box span.active {
+	background:url(global_pic_btnbg2.jpg) -24px -9px;
+}
+
+/*
+#banner .nav_box span{
+	display: block;
+	width: 13px;
+	height: 13px;
+	float:left;
+	margin:0 5px;
+	cursor:pointer;
+	background:url(global_pic_btnbg1.png);
+}
+#banner .nav_box span.active {
+	background:url(global_pic_btnbg2.png);
+}
+*/
+#banner .link_box{
+	position: absolute;
+	left: 0;
+	top: 93px;
+	width: 100%;
+	height: 295px;
+	display: block;
+	cursor: pointer;
+}
+
+/*
+ * FancyBox - jQuery Plugin
+ * Simple and fancy lightbox alternative
+ *
+ * Examples and documentation at: http://fancybox.net
+ * 
+ * Copyright (c) 2008 - 2010 Janis Skarnelis
+ * That said, it is hardly a one-person project. Many people have submitted bugs, code, and offered their advice freely. Their support is greatly appreciated.
+ * 
+ * Version: 1.3.4 (11/11/2010)
+ * Requires: jQuery v1.3+
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+
+#fancybox-loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1104;
+    display: none;
+}
+
+#fancybox-loading div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 480px;
+    background-image: url('fancybox.png');
+}
+
+#fancybox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1100;
+    display: none;
+}
+
+#fancybox-tmp {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: auto;
+    display: none;
+}
+
+#fancybox-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 1101;
+    outline: none;
+    display: none;
+}
+
+#fancybox-outer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+#fancybox-content {
+    width: 0;
+    height: 0;
+    padding: 0;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1102;
+    border: 0px solid #fff;
+}
+
+#fancybox-hide-sel-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 1101;
+}
+
+#fancybox-close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background: transparent url('fancybox.png') -40px 0px;
+    cursor: pointer;
+    z-index: 1103;
+    display: none;
+}
+
+#fancybox-error {
+    color: #444;
+    font: normal 12px/20px Arial;
+    padding: 14px;
+    margin: 0;
+}
+
+#fancybox-img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    line-height: 0;
+    vertical-align: top;
+}
+
+#fancybox-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+#fancybox-left, #fancybox-right {
+    position: absolute;
+    bottom: 0px;
+    height: 100%;
+    width: 35%;
+    cursor: pointer;
+    outline: none;
+    background: transparent url('blank.gif');
+    z-index: 1102;
+    display: none;
+}
+
+#fancybox-left {
+    left: 0px;
+}
+
+#fancybox-right {
+    right: 0px;
+}
+
+#fancybox-left-ico, #fancybox-right-ico {
+    position: absolute;
+    top: 50%;
+    left: -9999px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    cursor: pointer;
+    z-index: 1102;
+    display: block;
+}
+
+#fancybox-left-ico {
+    background-image: url('fancybox.png');
+    background-position: -40px -30px;
+}
+
+#fancybox-right-ico {
+    background-image: url('fancybox.png');
+    background-position: -40px -60px;
+}
+
+#fancybox-left:hover, #fancybox-right:hover {
+    visibility: visible; /* IE6 */
+}
+
+#fancybox-left:hover span {
+    left: 20px;
+}
+
+#fancybox-right:hover span {
+    left: auto;
+    right: 20px;
+}
+
+.fancybox-bg {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 1001;
+}
+
+#fancybox-bg-n {
+    top: -20px;
+    left: 0;
+    width: 100%;
+    background-image: url('fancybox-x.png');
+}
+
+#fancybox-bg-ne {
+    top: -20px;
+    right: -20px;
+    background-image: url('fancybox.png');
+    background-position: -40px -162px;
+}
+
+#fancybox-bg-e {
+    top: 0;
+    right: -20px;
+    height: 100%;
+    background-image: url('fancybox-y.png');
+    background-position: -20px 0px;
+}
+
+#fancybox-bg-se {
+    bottom: -20px;
+    right: -20px;
+    background-image: url('fancybox.png');
+    background-position: -40px -182px;
+}
+
+#fancybox-bg-s {
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    background-image: url('fancybox-x.png');
+    background-position: 0px -20px;
+}
+
+#fancybox-bg-sw {
+    bottom: -20px;
+    left: -20px;
+    background-image: url('fancybox.png');
+    background-position: -40px -142px;
+}
+
+#fancybox-bg-w {
+    top: 0;
+    left: -20px;
+    height: 100%;
+    background-image: url('fancybox-y.png');
+}
+
+#fancybox-bg-nw {
+    top: -20px;
+    left: -20px;
+    background-image: url('fancybox.png');
+    background-position: -40px -122px;
+}
+
+#fancybox-title {
+    font-family: Helvetica;
+    font-size: 12px;
+    z-index: 1102;
+}
+
+.fancybox-title-inside {
+    padding-bottom: 10px;
+    text-align: center;
+    color: #333;
+    background: #fff;
+    position: relative;
+}
+
+.fancybox-title-outside {
+    padding-top: 10px;
+    color: #fff;
+}
+
+.fancybox-title-over {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #FFF;
+    text-align: left;
+}
+
+#fancybox-title-over {
+    padding: 10px;
+    background-image: url('fancy_title_over.png');
+    display: block;
+}
+
+.fancybox-title-float {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    height: 32px;
+}
+
+#fancybox-title-float-wrap {
+    border: none;
+    border-collapse: collapse;
+    width: auto;
+}
+
+#fancybox-title-float-wrap td {
+    border: none;
+    white-space: nowrap;
+}
+
+#fancybox-title-float-left {
+    padding: 0 0 0 15px;
+    background: url('fancybox.png') -40px -90px no-repeat;
+}
+
+#fancybox-title-float-main {
+    color: #FFF;
+    line-height: 29px;
+    font-weight: bold;
+    padding: 0 0 3px 0;
+    background: url('fancybox-x.png') 0px -40px;
+}
+
+#fancybox-title-float-right {
+    padding: 0 0 0 15px;
+    background: url('fancybox.png') -55px -90px no-repeat;
+}
+
+/* IE6 */
+
+.fancybox-ie6 #fancybox-close { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_close.png', sizingMethod='scale'); }
+
+.fancybox-ie6 #fancybox-left-ico { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_nav_left.png', sizingMethod='scale'); }
+.fancybox-ie6 #fancybox-right-ico { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_nav_right.png', sizingMethod='scale'); }
+
+.fancybox-ie6 #fancybox-title-over { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_title_over.png', sizingMethod='scale'); zoom: 1; }
+.fancybox-ie6 #fancybox-title-float-left { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_title_left.png', sizingMethod='scale'); }
+.fancybox-ie6 #fancybox-title-float-main { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_title_main.png', sizingMethod='scale'); }
+.fancybox-ie6 #fancybox-title-float-right { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_title_right.png', sizingMethod='scale'); }
+
+.fancybox-ie6 #fancybox-bg-w, .fancybox-ie6 #fancybox-bg-e, .fancybox-ie6 #fancybox-left, .fancybox-ie6 #fancybox-right, #fancybox-hide-sel-frame {
+    height: expression(this.parentNode.clientHeight + "px");
+}
+
+#fancybox-loading.fancybox-ie6 {
+    position: absolute; margin-top: 0;
+    top: expression( (-20 + (document.documentElement.clientHeight ? document.documentElement.clientHeight/2 : document.body.clientHeight/2 ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop )) + 'px');
+}
+
+#fancybox-loading.fancybox-ie6 div	{ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_loading.png', sizingMethod='scale'); }
+
+/* IE6, IE7, IE8 */
+
+.fancybox-ie .fancybox-bg { background: transparent !important; }
+
+.fancybox-ie #fancybox-bg-n { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_shadow_n.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-ne { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_shadow_ne.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-e { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_shadow_e.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-se { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_shadow_se.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-s { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_shadow_s.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-sw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_shadow_sw.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-w { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_shadow_w.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-nw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.midea.com/global/images/fancy_shadow_nw.png', sizingMethod='scale'); }
+
+/*FUN图片*/
+#fancybox-title-over_fun{
+padding: 10px;display: block;color: #ffffff;background-color: rgb(42,154,212);
+}
+
+.left dt a:hover{
+	color: #2a9ad4;
+}
+.left dt:hover{
+	color: #2a9ad4;
+}

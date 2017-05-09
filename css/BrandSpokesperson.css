@@ -1,0 +1,56 @@
+/*中间内容盒子*/
+.main_GPBox {
+	width: 100%;
+	min-height: 511px;
+	padding: 20px 0 40px 0;
+	background-color: #ffffff;
+	zoom: 1;
+}
+.main_GPBox>.inner_GPBox {
+	width: 1190px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	zoom: 1;
+}
+
+/*右侧大盒子*/
+.main_GPBox>.inner_GPBox>.rightBox {
+	float: left;
+	width: 1000px;
+	margin-left: 50px;
+	padding-top: 20px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > h2 {
+  padding: 10px 0 10px 5px;
+  font-size: 16px;
+  color: #222;
+  text-align: left;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .list {
+  margin-top: 30px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .list > dl {
+  display: inline-block;
+  float: left;
+  width: 201px;
+  padding: 4px;
+  border: 1px solid #ddd;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .list > dl > dt > img {
+  width: 201px;
+  height: 139px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .list > dl > dd {
+  display: block;
+  height: 50px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #666;
+  overflow: hidden;
+  padding: 10px 6px;
+  margin: 0;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .list > .marginLeft {
+  margin-left: 30px;
+}
+/*# sourceMappingURL=BrandSpokesperson.css.map */

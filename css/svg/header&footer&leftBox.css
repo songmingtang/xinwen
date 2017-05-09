@@ -1,0 +1,459 @@
+/*头部*/
+.d_header {
+	min-width: 1200px;
+	height: 44px;
+	background: #0092d8;
+	position: relative;
+	z-index: 50;
+}
+
+.d_header a.d_logo {
+	display: block;
+	background-image: url(../img/index_sprite.png);
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 44px;
+	line-height: 44px;
+	background-position: 0 -242px;
+	float: left;
+}
+.d_header ul{
+	float: left;
+}
+.d_header ul.d_headerNav li {
+	float: left;
+}
+
+.d_header ul.d_headerNav li a {
+	display: block;
+	padding: 0 30px;
+	font-family: 微软雅黑;
+	height: 44px;
+	line-height: 44px;
+	color: #a3c3e6;
+	font-size: 12px;
+}
+
+.d_header ul.d_headerNav li a:hover {
+	color: #fff;
+}
+
+.d_header ul.d_headerNav li .clr_f {
+	color: #fff;
+}
+
+.d_header .d_optBox {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 44px;
+	line-height: 44px;
+}
+
+.d_header .d_optBox .d_dlBox {
+	width: 86px;
+	height: 100%;
+	position: relative;
+	float: right;
+}
+
+.d_header .d_optBox .d_dlBox:hover ul {
+	display: block;
+}
+
+.d_header .d_optBox .d_dlBox p {
+	width: 86px;
+	height: 100%;
+	cursor: pointer;
+}
+
+.d_header .d_optBox .d_dlBox p i.d_rTu {
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	margin: 12px auto;
+	margin-left: 20px;
+	background-position: -35px -216px;
+}
+
+.d_header .d_optBox .d_dlBox p span {
+	display: block;
+	float: left;
+	margin-left: 2px;
+	cursor: pointer;
+	line-height: 44px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.d_header .d_optBox .d_dlBox p:hover {
+	background: #006fa3;
+}
+
+.d_header .d_optBox .d_dlBox ul {
+	display: none;
+	width: 291px;
+	border-right: 1px solid #eee;
+	border-left: 1px solid #eee;
+	background: #fff;
+	position: absolute;
+	right: 0;
+	top: 44px;
+}
+
+.d_header .d_optBox .d_dlBox ul li {
+	height: 48px;
+	border-bottom: 1px solid #eee;
+}
+
+.d_header .d_optBox .d_dlBox ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.d_header .d_optBox .d_dlBox ul li a:hover {
+	background: #f3f3f3;
+}
+
+.d_header .d_optBox .d_dlBox ul li a i {
+	display: block;
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin: 16px 10px 0 20px;
+	position: relative;
+	top: 2px;
+	background-image: url(../img/atom_sprite.png);
+	background-repeat: no-repeat;
+}
+
+.d_header .d_optBox .d_dlBox ul li a span {
+	font-size: 12px;
+	color: #000;
+}
+
+.d_header .d_optBox .d_goshop {
+	float: right;
+	width: auto;
+	height: 100%;
+	position: relative;
+}
+
+.d_header .d_optBox .d_goshop:hover ul {
+	display: block;
+	background: #fff;
+}
+
+.d_header .d_optBox .d_goshop p {
+	height: 100%;
+	padding: 0 24px;
+	cursor: pointer;
+}
+
+.d_header .d_optBox .d_goshop p i {
+	float: left;
+	background-position: -146px -215px;
+	cursor: pointer;
+}
+
+.d_header .d_optBox .d_goshop p:hover {
+	background: #006fa3;
+}
+
+.d_header .d_optBox .d_goshop ul {
+	display: none;
+	padding: 30px 0;
+	color: #a1a1a1;
+	text-align: center;
+	font-size: 12px;
+	line-height: 12px;
+	width: 360px;
+	border: 1px solid #f3f3f3;
+	position: absolute;
+	right: 0;
+	top: 1;
+}
+
+.d_header .d_optBox .d_goshop ul a {
+	color: #269bdb;
+}
+
+.d_header .d_optBox .d_goshop .sjewm {
+	padding: 0;
+	border: none;
+	width: 190px;
+	height: 262px;
+	background: #fff;
+	position: absolute;
+	z-index: 51;
+	border-top: 0 none;
+	top: 44px;
+	left: -100%;
+	margin: 0;
+}
+
+.d_header .d_optBox .d_ssBox {
+	float: right;
+	width: auto;
+	height: 100%;
+	position: relative;
+}
+
+.d_header .d_optBox .d_ssBox p {
+	width: 20px;
+	height: 100%;
+	margin: 0 20px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.d_header .d_optBox .d_ssBox p i {
+	float: left;
+	background-position: -96px -215px;
+	cursor: pointer;
+}
+
+.d_header .d_optBox .d_ssBox p:hover {
+	background: #006fa3;
+}
+
+.d_header .d_optBox .d_ssBox .d_sskBox {
+	transition: .5s;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	overflow: hidden;
+	padding: 0;
+	height: 44px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e0e0e0;
+	z-index: 3;
+}
+
+.d_header .d_optBox .d_ssBox .d_sskBox i {
+	position: absolute;
+	left: 15px;
+	top: 12px;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/index_sprite.png);
+	background-repeat: no-repeat;
+	background-position: -66px -215px;
+}
+
+.d_header .d_optBox .d_ssBox .d_sskBox input {
+	font-family: \5b8b\4f53;
+	display: block;
+	height: 44px;
+	line-height: 44px;
+	padding: 0 10px 0 0;
+	text-indent: 40px;
+	border: 0 none;
+	border-radius: 0;
+}
+
+/*左侧竖排导航盒子*/
+.main_GPBox>.inner_GPBox>.leftBox {
+	float: left;
+	width: 140px;
+	height: 353px;
+}
+
+.main_GPBox>.inner_GPBox>.leftBox>.left_ul{
+    margin-top: 8px;
+}
+.main_GPBox>.inner_GPBox>.leftBox>.left_ul>li{
+    margin-bottom: 10px;
+    position: relative;
+}
+.main_GPBox>.inner_GPBox>.leftBox>.left_ul>li a{
+    color: #333;
+    font-size: 12px;
+}
+.main_GPBox>.inner_GPBox>.leftBox>.left_ul>li a:hover{
+	color: #0092d8;
+}
+.main_GPBox>.inner_GPBox>.leftBox>.left_ul>li a.active{
+	color: #0092d8;
+}
+.main_GPBox>.inner_GPBox>.leftBox>.left_ul>li i{
+    display: inline-block;
+    background: url(../img/atom_sprite.png) no-repeat -180px 0;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 5px;
+    right: 22px;
+    background-position: -200px 0;
+    cursor: pointer;
+}
+.main_GPBox>.inner_GPBox>.leftBox>.left_ul>.first_li{
+    padding-top: 6px;
+}
+.main_GPBox>.inner_GPBox>.leftBox>.left_ul>.cur{
+	color: #0695d6;
+}
+.main_GPBox>.inner_GPBox>.leftBox>.left_ul>li>ul{
+	display: none;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.main_GPBox>.inner_GPBox>.leftBox>.left_ul>li>ul>li{
+	margin-bottom: 13px;
+}
+.main_GPBox>.inner_GPBox>.leftBox>.left_ul>li>.cilck_i{
+	background-position: -200px -20px;
+}
+
+/*底部*/
+.d_foot {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.d_foot a:hover {
+	color: #ff3300;
+}
+
+.d_foot .d_fot_nav {
+	overflow: hidden;
+	height: 42px;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	cursor: pointer;
+	position: relative;
+	background: #fff;
+	color: #666;
+}
+
+.d_foot .d_fot_nav dl {
+	width: 150px;
+	box-sizing: content-box;
+	float: left;
+	padding-bottom: 15px;
+}
+
+.d_foot .d_fot_nav dl dt a {
+	width: 100%;
+	display: block;
+	width: 150px;
+	padding: 15px 0 25px;
+	font-size: 12px;
+	line-height: 12px;
+	height: 12px;
+	font-weight: normal;
+	color: #000;
+}
+
+.d_foot .d_fot_nav dl dt a:hover {
+	color: #ff3300;
+}
+
+.d_foot .d_fot_nav dl dd {
+	margin-bottom: 12px;
+	font-size: 12px;
+	line-height: 12px;
+	height: 12px;
+	margin-left: 0;
+}
+
+.d_foot .d_fot_nav dl dd a {
+	color: #999;
+	font-size: 12px;
+}
+
+.d_foot .d_fot_nav dl dd a:hover {
+	color: #ff3300;
+}
+
+.d_foot .d_fot_nav i {
+	width: 10px;
+	height: 7px;
+	position: absolute;
+	right: 0px;
+	top: 17.5px;
+}
+
+.d_foot .d_fot_nav i.show {
+	background-position: -138px -199px;
+}
+
+.d_foot .d_fot_nav i.show:hover {
+	background-position: -138px -189px;
+}
+
+.d_foot .d_fot_nav i.show1 {
+	background-position: -123px -198px;
+}
+
+.d_foot .d_fot_nav i.show1:hover {
+	background-position: -123px -188px;
+}
+
+.d_foot .d_qita {
+	height: 18px;
+	margin-top: 15px;
+}
+
+.d_foot .d_qita h6 {
+	float: left;
+	display: inline-block;
+	font-weight: normal;
+	color: #999;
+	font-size: 12px;
+}
+
+.d_foot .d_qita a {
+	float: left;
+	font-size: 12px;
+	line-height: 12px;
+	padding: 3px 0;
+	height: 12px;
+	color: #999;
+	margin-right: 10px;
+}
+
+.d_foot .d_qita a:hover {
+	color: #ff3300;
+}
+
+.d_foot .d_qita i {
+	float: left;
+	padding: 3px 0;
+	display: inline-block;
+	font-size: 10px;
+	line-height: 10px;
+	height: 10px;
+	width: 1px;
+	border-left: 1px solid #e0e0e0;
+	margin: 0 16px 0 6px;
+}
+
+.d_foot .d_copy {
+	margin: 15px 0;
+	color: #999;
+	font-size: 12px;
+	line-height: 12px;
+	height: 12px;
+	font-family: '\5FAE\8F6F\96C5\9ED1';
+}
+
+.d_foot .d_copy a {
+	color: #999;
+}
+
+.d_foot .d_copy a:hover {
+	color: #ff3300;
+}
+
+.d_foot>a {
+	display: block;
+	width: 112px;
+	height: 40px;
+}

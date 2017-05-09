@@ -1,0 +1,61 @@
+/*中间内容盒子*/
+.main_GPBox {
+	width: 100%;
+	min-height: 511px;
+	padding: 20px 0 40px 0;
+	background-color: #ffffff;
+	zoom: 1;
+}
+.main_GPBox>.inner_GPBox {
+	width: 1190px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	zoom: 1;
+}
+
+/*右侧大盒子*/
+.main_GPBox>.inner_GPBox>.rightBox {
+	float: left;
+	width: 1000px;
+	margin-left: 50px;
+	padding-top: 20px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .weirenleiczmhsh {
+  width: 950px;
+  height: 235px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > h3 {
+  font-size: 19px;
+  color: #222;
+  margin-top: 36px;
+  font-family: "微软雅黑", sans-serif;
+}
+.main_GPBox>.inner_GPBox>.rightBox > h3:first-of-type {
+  margin-top: 46px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > p {
+  line-height: 26px;
+  font-size: 16px;
+  color: #666;
+  margin-top: 12px;
+  font-family: "宋体";
+}
+.main_GPBox>.inner_GPBox>.rightBox > p > span {
+  font-size: 18px;
+  color: #0070c3;
+  font-weight: bold;
+}
+.main_GPBox>.inner_GPBox>.rightBox > p > i {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .MideaIcon {
+  margin: 24px 0 10px 0;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .WeExpectation {
+  width: 600px;
+  height: 400px;
+  margin-top: 46px;
+}
+/*# sourceMappingURL=BrandIntroduction.css.map */

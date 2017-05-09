@@ -1,0 +1,224 @@
+body {
+	font-family: '\5FAE\8F6F\96C5\9ED1';
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img {
+	display: block;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.z_box {
+	width: 1200px;
+	margin: 0 auto;
+	height: 350px;
+	/*background: red;*/
+	padding-top: 30px;
+}
+
+.z_left {
+	float: left;
+	width: 140px;
+}
+
+.z_nav {
+	float: left;
+	width: 140px;
+	font-family: '\5FAE\8F6F\96C5\9ED1';
+}
+
+.nav_title {
+	display: block;
+	width: 140px;
+	height: 34px;
+	font-family: '\5FAE\8F6F\96C5\9ED1';
+	color: #333;
+	font-size: 16px;
+}
+
+.z_nav>li {
+	width: 140px;
+	height: 20px;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.z_nav_li>a {
+	color: #666;
+	font-size: 12px;
+	display: block;
+	height: 30px;
+	/*background: black;*/
+}
+
+.z_nav_li>a:hover {
+	color: red;
+}
+
+.li_s {
+	padding-bottom: 16px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 15px;
+}
+
+.icon_atom {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	background: url(../img/atom_sprite.png) no-repeat;
+}
+
+.icon_swtch_nav {
+	position: absolute;
+	width: 13px;
+	height: 13px;
+	top: 3px;
+	right: 0;
+	background-position: -200px 0;
+	cursor: pointer;
+	-webkit-user-select: none;
+}
+
+.z_right {
+	float: left;
+	margin-left: 60px;
+	width: 998px;
+	height: auto;
+	border: 1px solid #e6e6e6;
+	background-color: #f4f4f4;
+}
+
+.search_inner {
+	float: left;
+	width: 600px;
+	height: 300px;
+	padding-left: 60px;
+	/*background: blue;*/
+}
+
+.search_title {
+	padding: 35px 0;
+	color: #333;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.search_pic {
+	float: left;
+}
+
+select {
+	width: 190px;
+	height: 30px;
+	border: 1px solid #d6d6d6;
+}
+
+.submit_wrap {
+	width: 600px;
+	height: 65px;
+	/*background: red;*/
+}
+
+button {
+	width: 200px;
+	margin-top: 25px;
+	margin-left: -1px;
+	color: #fffefe;
+	background-color: #0093d5;
+	border: 1px solid #0093d5;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #e7e7e7;
+	font: 12px/1.5 "Lucida Grande", Arial, "微软雅黑", "宋体";
+	padding: 6px 12px;
+	height: 40px;
+	line-height: 26px;
+}
+/*服务进度查询样式*/
+.z_cx_right{
+	    width: 988px;
+	    height: 390px;
+	    margin-bottom: 50px;
+	    border: 1px solid #e6e6e6;
+	    background-color: #f4f4f4;
+}
+.cx_selectList{
+		width: 640px;
+	    font: 12px/1.5 "Lucida Grande",Arial,"微软雅黑","宋体";
+}
+.hqyzm{
+	width: 150px;
+	height: 40px;
+	margin-left: 10px;
+	outline: none;
+}
+.sj{
+	width: 400px;
+	height: 40px;
+	text-indent: 14px;
+}
+.yzm{
+	width: 240px;
+	height: 40px;
+	text-indent: 14px;
+	
+}
+.bcx{
+	width: 400px;
+	height: 40px;
+	background: #0093d5;
+	outline: none;
+}
+.y{
+	margin-top: 20px;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background: #999;
+	display: block;
+	float: left;
+}
+.mod_group >span{
+	margin-top: 20px;
+	float: left;
+	font-size: 12px;
+	color:#9999a5;
+	margin-left: 6px;
+}
+.abc{
+	    color: #008bcc;
+    cursor: pointer;
+}
+
+

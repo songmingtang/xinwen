@@ -1,0 +1,149 @@
+/*重置样式*/
+html,
+body,
+div,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+i,
+a,
+em,
+input,
+form,
+img,
+ul,
+li,
+ol,
+dl,
+dt,
+section,
+article,
+nav,
+menu,
+aside,
+header,
+footer,
+left,
+right,
+top,
+bottom {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	font-style: normal;
+	box-sizing: border-box;
+}
+
+section,
+article,
+nav,
+menu,
+aside,
+header,
+footer,
+left,
+right,
+top,
+bottom {
+	display: block;
+}
+
+ul,
+li,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: inline-block;
+	border: 0;
+}
+
+.clear {
+	display: block;
+	*zoom: 1;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	clear: both;
+}
+
+.header,
+.header .inner,
+.inner_wrap {
+	zoom: 1;
+}
+
+.header:after,
+.header .inner:after,
+.inner_wrap:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.hide,
+.none {
+	display: none !important;
+}
+
+.show {
+	display: block !important;
+}
+
+.link_blue {
+	color: #007AFF;
+}
+
+.d_tu {
+	background-image: url(../img/index_sprite.png);
+	background-repeat: no-repeat;
+}
+
+.d_tuB {
+	background-image: url(../img/atom_sprite.png);
+	background-repeat: no-repeat;
+}
+
+.d_tuC {
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+}
+
+.opa {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 12px auto;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	font-family: "微软雅黑";
+	color: #666;
+}
+
+
+

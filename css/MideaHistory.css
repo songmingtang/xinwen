@@ -1,0 +1,134 @@
+
+/*中间内容盒子*/
+.main_GPBox {
+  width: 100%;
+  min-height: 560px;
+  padding: 20px 0 40px 0;
+  background-color: #ffffff;
+  zoom: 1;
+}
+.main_GPBox > .inner_GPBox {
+  width: 1190px;
+	margin: 0 auto;
+  padding-bottom: 20px;
+  zoom: 1;
+}
+
+/*右侧大盒子*/
+.main_GPBox > .inner_GPBox > .rightBox {
+  float: left;
+  width: 960px;
+  margin-left: 40px;
+  position: relative;
+  bottom: 5px;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .nav {
+  height: 52px;
+  width: 100%;
+  background:#fff;
+  position:relative;
+  z-index: 5;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .nav > .navUL {
+  width: 900px;
+  height: 100%;
+  padding-left: 60px;
+  border-bottom: 1px solid #d6d6d6;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .nav > .navUL > li {
+  height: 100%;
+  line-height: 52px;
+  float: left;
+  margin-left: 60px;
+  font-size: 14px;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .nav > .navUL > li > a {
+  color: #999;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .nav > .navUL > .clickThis {
+  border-bottom: 1px solid #0695d6;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .nav > .navUL > .clickThis > a {
+  color: #0695d6;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .nav .navUL_fixed {
+  position: fixed;
+  top: 0;
+  background: #fff;
+  z-index: 50;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .ulFalse {
+	height: 0px;
+	background: red;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .content > .childItem {
+  float: left;
+  width: 100%;
+  border-bottom: 1px dotted #d6d6d6;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .content > .childItem .erjiFather {
+  float: left;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .content > .childItem .erjiFather > .summary {
+  float: left;
+  width: 330px;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .content > .childItem .erjiFather > .summary > i {
+  display: block;
+  float: right;
+  width: 19px;
+  height: 19px;
+  margin-top: 60px;
+  position: relative;
+  left: 10px;
+  bottom: 2px;
+  background: url(../img/yuandian.png) no-repeat -200px 0;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .content > .childItem .erjiFather > .summary .Ichange {
+  width: 13px;
+  height: 13px;
+  left: 7px;
+  bottom: 3px;
+  background: url(../img/yuandian.png) no-repeat -200px -20px;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .content > .childItem .erjiFather > .summary > img {
+  float: right;
+  margin: 60px 40px 0 0;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .content > .childItem .erjiFather > .details {
+  float: right;
+  width: 629px;
+  border-left: 1px solid #d6d6d6;
+  padding: 53px 69px 34px 40px;
+  border-bottom: 1px dotted #d6d6d6;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .content > .childItem .erjiFather > .details p {
+  line-height: 26px;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 26px;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .content > .childItem .erjiFather > .details > .text {
+  margin-bottom: 34px;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .content > .childItem .erjiFather > .details > .text > h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 22px;
+  font-weight: normal;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .content > .childItem .erjiFather .detailsCTwo {
+  padding: 53px 69px 60px 40px;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .content > .childItem .erjiFather .detailsChange {
+  border-bottom: none;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .content > .childItem .erjiFather .detailsChangeL {
+  padding: 53px 69px 20px 40px;
+}
+.main_GPBox > .inner_GPBox > .rightBox > .content .childItemChange {
+  border-bottom: none;
+}
+
+
+/*# sourceMappingURL=MideaHistory.css.map */

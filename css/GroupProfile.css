@@ -1,0 +1,50 @@
+/*中间内容盒子*/
+.main_GPBox {
+	width: 100%;
+	min-height: 511px;
+	padding: 20px 0 40px 0;
+	background-color: #ffffff;
+	zoom: 1;
+}
+
+.main_GPBox>.inner_GPBox {
+	width: 1190px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	zoom: 1;
+}
+
+/*右侧大盒子*/
+.main_GPBox>.inner_GPBox>.rightBox {
+	float: left;
+	width: 1000px;
+	margin-left: 50px;
+	padding-top: 20px;
+}
+
+.main_GPBox>.inner_GPBox>.rightBox>h2 {
+	padding: 10px 0px;
+	font-size: 16px;
+	color: #222;
+	text-align: left;
+}
+
+.main_GPBox>.inner_GPBox>.rightBox>.GP_content {
+	margin-top: 66px;
+}
+
+.main_GPBox>.inner_GPBox>.rightBox>.GP_content>p {
+	width: 850px;
+	font-size: 12pt;
+	padding-top: 30px;
+	text-indent: 2em;
+}
+
+.main_GPBox>.inner_GPBox>.rightBox>.GP_content>p:last-of-type,
+.main_GPBox>.inner_GPBox>.rightBox>.GP_content p:nth-of-type(5) {
+	text-indent: 0;
+}
+
+
+
+

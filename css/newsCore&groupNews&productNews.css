@@ -1,0 +1,199 @@
+
+/*中间内容盒子*/
+.main_GPBox {
+	width: 100%;
+	min-height: 511px;
+	padding: 20px 0 40px 0;
+	background-color: #ffffff;
+	zoom: 1;
+}
+.main_GPBox>.inner_GPBox {
+	width: 1190px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	zoom: 1;
+}
+
+/*右侧大盒子*/
+.main_GPBox>.inner_GPBox>.rightBox {
+	float: left;
+	width: 1000px;
+	margin-left: 50px;
+	padding-top: 20px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation {
+  width: 100%;
+  height: 368px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .header {
+  width: 100%;
+  height: 47px;
+  border-bottom: 1px solid #ececec;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .header > h2 {
+  font-size: 28px;
+  color: #333;
+  font-weight: normal;
+  line-height: 25px;
+  float: left;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .header > .SearchBox {
+  float: right;
+  margin-top: 5px;
+  position: relative;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .header > .SearchBox > input {
+  width: 240px;
+  height: 22px;
+  line-height: 22px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #333;
+  text-indent: 9px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .header > .SearchBox > input::-webkit-input-placeholder {
+  color: #a9a9a9;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .header > .SearchBox > .searchIcon {
+  position: absolute;
+  right: 7px;
+  top: 5px;
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../img/atom_sprite.png) no-repeat -180px 0;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .content {
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .content > img {
+  float: left;
+  width: 620px;
+  height: 300px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .content > .list {
+  width: 350px;
+  height: 300px;
+  float: right;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .content > .list > .entry {
+  border-bottom: 1px solid #ececec;
+  padding: 20px 10px 25px 0;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .content > .list > .entry > h2 {
+  margin-bottom: 12px;
+  height: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .content > .list > .entry > h2 > a {
+  color: #333;
+  font-size: 24px;
+  line-height: 28px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .content > .list > .entry > h2 > a:hover {
+  text-decoration: underline;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .content > .list > .entry > p {
+  font-size: 12px;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .content > .list > .first {
+  padding-top: 0px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newInformation > .content > .list > .removeBorder {
+  border-bottom: none;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract {
+  width: 100%;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract > .newsA {
+  padding: 20px 0 15px 0;
+  border-bottom: 1px solid #ececec;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract > .newsA > h2 {
+  font-size: 28px;
+  color: #333;
+  height: 40px;
+  line-height: 40px;
+  font-weight: normal;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract > .list {
+  width: 100%;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract > .list > .newsRow {
+  height: 176px;
+  padding: 20px 0 30px 0;
+  border-bottom: 1px solid #ececec;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract > .list > .newsRow > .newsImg {
+  float: left;
+  width: 180px;
+  margin-top: 3px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract > .list > .newsRow > .newsImg > a {
+  cursor: pointer;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract > .list > .newsRow > .newsImg > a > img {
+  width: 180px;
+  height: 125px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract > .list > .newsRow > .newsTitle {
+  float: left;
+  width: 580px;
+  margin-left: 30px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract > .list > .newsRow > .newsTitle > h2 {
+  margin-bottom: 10px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract > .list > .newsRow > .newsTitle > h2 > a {
+  display: block;
+  width: 580px;
+  color: #333;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract > .list > .newsRow > .newsTitle > p {
+  font-size: 12px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract > .list > .newsRow > .newsDate {
+  width: 65px;
+  float: right;
+  font-size: 12px;
+  color: #999;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract > .PageNumber {
+  width: 100%;
+  height: 50px;
+  margin: 50px 0;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract > .PageNumber > a {
+  display: inline-block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  font-size: 13px;
+  color: #999;
+  text-align: center;
+  line-height: 50px;
+  font-weight: normal;
+  margin: 0 0 0 -1px;
+  border: 1px solid #ececec;
+  zoom: 1;
+  transition: .3s;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .newsAbstract > .PageNumber > a:hover {
+  color: #333;
+}
+/*# sourceMappingURL=newsCore.css.map */

@@ -1,0 +1,129 @@
+body {
+	font-family: '\5FAE\8F6F\96C5\9ED1';
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img {
+	display: block;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.banner {
+	width: 100%;
+	height: 190px;
+	background: #f0f0f0;
+}
+
+.banner>img {
+	margin-left: 160px;
+}
+
+.one {
+	width: 1200px;
+	height: 390px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.one>h2{
+	height: 80px;
+	font-size: 28px;
+	line-height: 80px;
+	color: #333;
+	font-weight: normal;
+}
+.one>a{
+	width: 280px;
+	height: 238px;
+	background: #f4f4f4;
+	float: left;
+	margin-right: 26px;
+	padding-top: 32px;
+}
+.one>a>h3{
+	width: 280px;
+	text-align: center;
+	line-height: 32px;
+	color: #333;
+	font-weight: normal;
+}
+.one>a>h4{
+	width: 280px;
+	text-align: center;
+	color: #999;
+	font-weight: normal;
+}
+.two {
+	width: 1200px;
+	height: 405px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+.two>h2{
+	height: 66px;
+	font-size: 28px;
+	color: #333;
+	font-weight: normal;
+}
+.two>a{
+	width: 280px;
+	height: 238px;
+	background: #f4f4f4;
+	float: left;
+	margin-right: 26px;
+	padding-top: 32px;
+}
+.two>a>h3{
+	width: 280px;
+	text-align: center;
+	line-height: 32px;
+	color: #333;
+	font-weight: normal;
+}
+.two>a>h4{
+	width: 280px;
+	text-align: center;
+	color: #999;
+	font-weight: normal;
+}
+#oa{
+	position: relative;
+}
+#er{
+	position: absolute;
+	top: 0px;
+	left:270px;
+	width: 280px;
+	height: 270px;
+	display: none;
+}
+

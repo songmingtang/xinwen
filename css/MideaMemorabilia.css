@@ -1,0 +1,53 @@
+
+/*中间内容盒子*/
+.main_GPBox {
+	width: 100%;
+	min-height: 511px;
+	padding: 20px 0 40px 0;
+	background-color: #ffffff;
+	zoom: 1;
+}
+
+.main_GPBox>.inner_GPBox {
+	width: 1190px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	zoom: 1;
+}
+
+/*右侧大盒子*/
+.main_GPBox>.inner_GPBox>.rightBox {
+	float: left;
+	width: 1000px;
+	margin-left: 50px;
+	padding-top: 20px;
+}
+.main_GPBox>.inner_GPBox>.rightBox>h2 {
+	padding: 10px 0px;
+	font-size: 16px;
+	color: #222;
+	text-align: left;
+}
+.main_GPBox>.inner_GPBox>.rightBox > img {
+  width: 660px;
+  height: 46px;
+  margin-top: 30px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > ul {
+  padding: 30px 0 0 0;
+}
+.main_GPBox>.inner_GPBox>.rightBox > ul > li {
+  height: 36px;
+  line-height: 36px;
+  font-size: 12px;
+  color: #666;
+  border-bottom: 1px solid #d9d9d9;
+}
+.main_GPBox>.inner_GPBox>.rightBox > ul > li > h3 {
+  display: inline-block;
+  width: 140px;
+  font-size: 12px;
+  color: #222;
+  padding-left: 20px;
+}
+/*# sourceMappingURL=MideaMemorabilia.css.map */

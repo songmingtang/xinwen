@@ -1,0 +1,81 @@
+/*中间内容盒子*/
+.main_GPBox {
+	width: 100%;
+	min-height: 511px;
+	padding: 20px 0 40px 0;
+	background-color: #ffffff;
+	zoom: 1;
+}
+.main_GPBox>.inner_GPBox {
+	width: 1190px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	zoom: 1;
+}
+
+/*右侧大盒子*/
+.main_GPBox>.inner_GPBox>.rightBox {
+	float: left;
+	width: 1000px;
+	margin-left: 50px;
+	padding-top: 20px;
+}
+
+.main_GPBox>.inner_GPBox>.rightBox > h2 {
+  padding: 10px 0 10px 5px;
+  font-size: 16px;
+  color: #222;
+  text-align: left;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .paddingBottom {
+  padding-bottom: 20px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > p {
+  font-size: 12px;
+  color: #666;
+  text-indent: 2em;
+  line-height: 23px;
+  padding-top: 20px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .pinpailishiSJ {
+  width: 930px;
+  height: 46px;
+  margin: 30px 10px 0 10px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .zhijin2006nian {
+  padding: 40px 20px;
+  border-bottom: 1px solid #ddd;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .zhijin2006nian > img {
+  width: 219px;
+  height: 135px;
+  float: left;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .zhijin2006nian > .rightContent {
+  float: left;
+  width: 380px;
+  padding-left: 30px;
+  font-size: 12px;
+  color: #666;
+  line-height: 25px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .zhijin2006nian > .rightContent > h4 {
+  font-size: 14px;
+  color: #007fbf;
+  padding: 5px 0;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .marginTop {
+  margin-top: 30px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .pinpaiGS {
+  width: 930px;
+  height: 42px;
+  margin: 30px 10px 10px 10px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > center {
+  margin-top: 20px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .textCenter {
+  text-align: center;
+}
+/*# sourceMappingURL=BrandHistory.css.map */

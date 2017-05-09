@@ -1,0 +1,158 @@
+
+body {
+	font-family: '\5FAE\8F6F\96C5\9ED1';
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img {
+	display: block;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.z_box {
+	width: 1200px;
+	margin: 0 auto;
+	height: 350px;
+	/*background: red;*/
+	padding-top: 30px;
+}
+
+.z_left {
+	float: left;
+	width: 140px;
+}
+
+.z_nav {
+	float: left;
+	width: 140px;
+	font-family: '\5FAE\8F6F\96C5\9ED1';
+}
+
+.nav_title {
+	display: block;
+	width: 140px;
+	height: 34px;
+	font-family: '\5FAE\8F6F\96C5\9ED1';
+	color: #333;
+	font-size: 16px;
+}
+
+.z_nav>li {
+	width: 140px;
+	height: 20px;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.z_nav_li>a {
+	color: #666;
+	font-size: 12px;
+	display: block;
+	height: 30px;
+	/*background: black;*/
+}
+
+.z_nav_li>a:hover {
+	color: red;
+}
+
+.li_s {
+	padding-bottom: 16px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 15px;
+}
+
+.icon_atom {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	background: url(../img/atom_sprite.png) no-repeat;
+}
+
+.icon_swtch_nav {
+	position: absolute;
+	width: 13px;
+	height: 13px;
+	top: 3px;
+	right: 0;
+	background-position: -200px 0;
+	cursor: pointer;
+	-webkit-user-select: none;
+}
+
+.z_right {
+	float: left;
+	margin-left: 60px;
+	width: 998px;
+	height: auto;
+	border: 1px solid #e6e6e6;
+	background-color: #fff;
+}
+.z_zhong{
+	padding-left: 20px;
+	width: 970px;
+	height: 120px;
+	background: #f4f4f4;
+}
+select {
+	margin-top: 44px;
+	width: 190px;
+	height: 30px;
+	border: 1px solid #d6d6d6;
+	margin-left: 5px;
+	float: left;
+}
+.submit_wrap {
+
+	/*background: red;*/
+	float: left;
+}
+
+button {
+	width: 200px;
+	margin-top: 40px;
+	margin-left: 40px;
+	color: #fffefe;
+	background-color: #0093d5;
+	border: 1px solid #0093d5;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #e7e7e7;
+	font: 12px/1.5 "Lucida Grande", Arial, "微软雅黑", "宋体";
+	padding: 6px 12px;
+	height: 40px;
+	line-height: 26px;
+	float: left;
+}
+

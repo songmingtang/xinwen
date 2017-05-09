@@ -1,0 +1,84 @@
+/*中间内容盒子*/
+.main_GPBox {
+	width: 100%;
+	min-height: 511px;
+	padding: 20px 0 40px 0;
+	background-color: #ffffff;
+	zoom: 1;
+}
+
+.main_GPBox>.inner_GPBox {
+	width: 1190px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	zoom: 1;
+}
+
+/*右侧大盒子*/
+.main_GPBox>.inner_GPBox>.rightBox {
+	float: left;
+	width: 1000px;
+	margin-left: 50px;
+	padding-top: 20px;
+}
+.main_GPBox>.inner_GPBox>.rightBox {
+  float: left;
+  width: 1000px;
+  margin: 20px 0 0 50px;
+  padding-left: 50px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > h2 {
+  font-size: 16px;
+  color: #222;
+  padding: 10px 0;
+  text-align: left;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .meidiCulture {
+  border-bottom: 1px solid #d9d9d9;
+  padding: 20px 0;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .meidiCulture > img {
+  display: inline-block;
+  width: 303px;
+  float: left;
+  padding: 50px 20px 0 0;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .meidiCulture > p {
+  float: left;
+  line-height: 24px;
+  font-size: 12px;
+  color: #666;
+}
+.main_GPBox>.inner_GPBox>.rightBox > dl {
+  height: 162px;
+  padding-top: 30px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > dl > dt {
+  display: inline-block;
+  float: left;
+  width: 162px;
+  margin: 30px 30px 0 0;
+}
+.main_GPBox>.inner_GPBox>.rightBox > dl > dt > img {
+  width: 162px;
+  height: 117px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > dl > dd {
+  display: inline-block;
+  width: 496px;
+  float: left;
+  font-size: 12px;
+  color: #666;
+  line-height: 24px;
+  margin: 0;
+}
+.main_GPBox>.inner_GPBox>.rightBox > .height320 {
+  height: 320px;
+}
+.main_GPBox>.inner_GPBox>.rightBox > p {
+  font-size: 12px;
+  color: #666;
+  text-align: right;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=MideaCulture.css.map */
